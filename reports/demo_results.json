@@ -14,6 +14,46 @@
   "next_step": "Replace seed records with a public decision-support dataset and document subgroup behavior.",
   "professor": "Sanjay Ranka",
   "project_family": "ml",
+  "proposed_method": {
+    "algorithm_id": "P099-Ranka-DataMining",
+    "algorithm_name": "RankaProvenanceDataMiningExplainAgent",
+    "core_mechanism": "prioritizes decision-support failures with calibration and subgroup reliability risk",
+    "decision_rule": "Rank seed cases by ml-specific priority score with Ranka-aligned focus term 'Data mining'.",
+    "mean_priority_score": 0.2247,
+    "project_family": "ml",
+    "top_cases": [
+      {
+        "action": "inspect subgroup/calibration failure",
+        "case_id": "M3",
+        "priority_score": 0.5849,
+        "signals": {
+          "calibration_gap": 0.71,
+          "error": true,
+          "group": "group_b"
+        }
+      },
+      {
+        "action": "inspect subgroup/calibration failure",
+        "case_id": "M4",
+        "priority_score": 0.5602,
+        "signals": {
+          "calibration_gap": 0.58,
+          "error": true,
+          "group": "group_b"
+        }
+      },
+      {
+        "action": "retain as model-card control row",
+        "case_id": "M5",
+        "priority_score": 0.0665,
+        "signals": {
+          "calibration_gap": 0.35,
+          "error": false,
+          "group": "group_c"
+        }
+      }
+    ]
+  },
   "research_area": "Data mining, HPC, machine learning, big data analytics",
   "university": "University of Florida",
   "value_add": "auditable ML model-card metric pack"
