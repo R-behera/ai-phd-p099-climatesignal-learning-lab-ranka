@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "accuracy": 0.6667,
+    "artifact": "auditable decision-support model card metrics",
+    "brier_score": 0.1907,
+    "group_accuracy": {
+      "group_a": 1.0,
+      "group_b": 0.0,
+      "group_c": 1.0
+    },
+    "max_group_accuracy_gap": 1.0,
+    "num_records": 6
+  },
+  "next_step": "Replace seed records with a public decision-support dataset and document subgroup behavior.",
+  "professor": "Sanjay Ranka",
+  "project_family": "ml",
+  "research_area": "Data mining, HPC, machine learning, big data analytics",
+  "university": "University of Florida",
+  "value_add": "auditable ML model-card metric pack"
+}

@@ -1,0 +1,13 @@
+{
+  "professor": "Sanjay Ranka",
+  "university": "University of Florida",
+  "program": "CISE PhD (CS)",
+  "research_area": "Data mining, HPC, machine learning, big data analytics",
+  "representative_paper": "Elements of Artificial Neural Networks (textbook); 1997; MIT Press",
+  "paper_link": "https://scholar.google.com/scholar?q=Elements+of+Artificial+Neural+Networks+%28textbook%29",
+  "project_family": "ml",
+  "focus": "Data mining",
+  "value_add_artifact": "auditable ML model-card metric pack",
+  "next_step": "Replace seed records with a public decision-support dataset and document subgroup behavior.",
+  "generated_for": "professor outreach value-add starter"
+}

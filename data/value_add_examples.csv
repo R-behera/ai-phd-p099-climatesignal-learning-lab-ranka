@@ -1,0 +1,7 @@
+record_id,group,prediction,label,confidence,split
+M1,group_a,1,1,0.82,test
+M2,group_a,0,0,0.23,test
+M3,group_b,1,0,0.71,test
+M4,group_b,0,1,0.42,test
+M5,group_c,1,1,0.65,test
+M6,group_c,0,0,0.31,test
